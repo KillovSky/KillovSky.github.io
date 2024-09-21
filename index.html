@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="8bfOUcbFzkFZd7nHgn9qZjZ59FWTWk6wn8WkJ_rl9Gc" />
+    <meta name="msvalidate.01" content="D42EF08139CBEE4978D6886237A12B28" />
+    <meta name="yandex-verification" content="329a13bf3bb9076d" />
+    <meta name="description"
+        content="Você se perdeu na vastidão da internet? Não se preocupe, estou aqui para ajudar! A URL correta é: https://github.com/KillovSky/Iris">
+    <meta name="keywords"
+        content="404, robot, bot, whatsapp, chatbot, games, stickers, comandos, otaku, gamer, automação, javascript, html, css, python, json, opensource, adapt, iris">
+    <meta name="author" content="KillovSky">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://killovsky.github.io/Nurse.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Domain - Projeto Íris">
+    <meta property="og:description"
+        content="Parece que você se perdeu! Não se preocupe, estou aqui para ajudar.">
+    <meta property="og:url" content="https://killovsky.github.io/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@killovskye">
+    <meta name="twitter:title" content="Domain - Projeto Íris">
+    <meta name="twitter:description"
+        content="Parece que você se perdeu! Não se preocupe, estou aqui para ajudar.">
+    <meta name="twitter:image" content="https://killovsky.github.io/Nurse.jpg">
+    <title>Olá! Bem-vindo!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            animation: fadeInDown 1s ease;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            animation: fadeInUp 1s ease;
+        }
+
+        .countdown {
+            font-size: 2.5em;
+            margin-top: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            animation: pulse 1s infinite;
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ff3d00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1.2em;
+            animation: fadeInUp 1.5s ease;
+        }
+
+        a:hover {
+            background-color: #e63e00;
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let countdown = 5;
+            const countdownElement = document.getElementById('countdown');
+            const interval = setInterval(() => {
+                countdown--;
+                countdownElement.textContent = countdown;
+                if (countdown <= 0) {
+                    clearInterval(interval);
+                    if (window.top !== window.self) {
+                        window.top.location.href = 'https://killovsky.github.io/Iris';
+                    } else {
+                        window.location.href = 'https://killovsky.github.io/Iris';
+                    }
+                }
+            }, 1000);
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Oi, que delícia ter você aqui!</h1>
+    <p>Parece que você está navegando em águas desconhecidas, não é mesmo? Não se preocupe, estou aqui para te ajudar a
+        ir ao caminho certo!</p>
+    <p>Em breve, você será redirecionado, mas se preferir, clique aqui e vamos mais rápido juntos!</p>
+    <a href="https://github.com/KillovSky/Iris">Descubra o Projeto Íris</a>
+    <div class="countdown" id="countdown">5</div>
+</body>
+
+</html>

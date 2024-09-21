@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://killovsky.github.io/Iris/lib/Wiki/Homepage/sitemap.xml
+Sitemap: https://killovsky.github.io/sitemap.xml

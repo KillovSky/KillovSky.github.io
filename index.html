@@ -2,143 +2,164 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Metadados básicos -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Você também se perdeu na vastidão da internet? Não se preocupe, estou aqui para ajudar a escolher seu destino!">
+    <meta name="keywords"
+        content="404, robot, bot, whatsapp, killovsky, chatbot, games, stickers, comandos, otaku, gamer, automação, javascript, html, css, python, json, opensource, adapt, iris">
+    <meta name="author" content="KillovSky">
+
+    <!-- Verificações de propriedade -->
     <meta name="google-site-verification" content="8bfOUcbFzkFZd7nHgn9qZjZ59FWTWk6wn8WkJ_rl9Gc" />
     <meta name="msvalidate.01" content="D42EF08139CBEE4978D6886237A12B28" />
     <meta name="yandex-verification" content="329a13bf3bb9076d" />
-    <meta name="description"
-        content="Você se perdeu na vastidão da internet? Não se preocupe, estou aqui para ajudar! A URL correta é: https://github.com/KillovSky/Iris">
-    <meta name="keywords"
-        content="404, robot, bot, whatsapp, chatbot, games, stickers, comandos, otaku, gamer, automação, javascript, html, css, python, json, opensource, adapt, iris">
-    <meta name="author" content="KillovSky">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Metadados para redes sociais (Open Graph e Twitter) -->
     <meta property="og:image" content="https://killovsky.github.io/Nurse.jpg">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Domain - Projeto Íris">
+    <meta property="og:title" content="KillovSky Projects">
     <meta property="og:description"
-        content="Parece que você se perdeu! Não se preocupe, estou aqui para ajudar.">
+        content="Você também se perdeu na vastidão da internet? Não se preocupe, estou aqui para ajudar a escolher seu destino!">
     <meta property="og:url" content="https://killovsky.github.io/index.html">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@killovskye">
-    <meta name="twitter:title" content="Domain - Projeto Íris">
+    <meta name="twitter:title" content="KillovSky Projects">
     <meta name="twitter:description"
-        content="Parece que você se perdeu! Não se preocupe, estou aqui para ajudar.">
+        content="Você também se perdeu na vastidão da internet? Não se preocupe, estou aqui para ajudar a escolher seu destino!">
     <meta name="twitter:image" content="https://killovsky.github.io/Nurse.jpg">
-    <title>Olá! Bem-vindo!</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #111;
-            color: #fff;
-            text-align: center;
-            padding: 50px;
-            background-size: cover;
-            position: relative;
-            overflow: hidden;
-        }
 
-        h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-            animation: fadeInDown 1s ease;
-        }
+    <!-- Links para CSS e scripts externos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="src/styles.css">
 
-        p {
-            font-size: 1.3em;
-            margin-bottom: 40px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-            animation: fadeInUp 1s ease;
-        }
-
-        .countdown {
-            font-size: 2.5em;
-            margin-top: 30px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-            animation: pulse 1s infinite;
-        }
-
-        a {
-            display: inline-block;
-            padding: 12px 25px;
-            background-color: #ff3d00;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s, transform 0.3s;
-            font-size: 1.2em;
-            animation: fadeInUp 1.5s ease;
-        }
-
-        a:hover {
-            background-color: #e63e00;
-            transform: scale(1.1);
-        }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.05);
-            }
-        }
-    </style>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            let countdown = 5;
-            const countdownElement = document.getElementById('countdown');
-            const interval = setInterval(() => {
-                countdown--;
-                countdownElement.textContent = countdown;
-                if (countdown <= 0) {
-                    clearInterval(interval);
-                    if (window.top !== window.self) {
-                        window.top.location.href = 'https://killovsky.github.io/Iris';
-                    } else {
-                        window.location.href = 'https://killovsky.github.io/Iris';
-                    }
-                }
-            }, 1000);
-        });
-    </script>
+    <title>KillovSky Projects</title>
 </head>
 
 <body>
-    <h1>Oi, que delícia ter você aqui!</h1>
-    <p>Parece que você está navegando em águas desconhecidas, não é mesmo? Não se preocupe, estou aqui para te ajudar a
-        ir ao caminho certo!</p>
-    <p>Em breve, você será redirecionado, mas se preferir, clique aqui e vamos mais rápido juntos!</p>
-    <a href="https://github.com/KillovSky/Iris">Descubra o Projeto Íris</a>
-    <div class="countdown" id="countdown">5</div>
+    <!-- Fundo dinâmico -->
+    <div class="background"></div>
+
+    <!-- Barra de tarefas -->
+    <div class="taskbar">
+        <div class="buttons">
+            <!-- Botões de configuração, sobre e mudança de fundo -->
+            <button data-bs-toggle="modal" data-bs-target="#configModal"><i class="fas fa-cog"></i></button>
+            <button data-bs-toggle="modal" data-bs-target="#aboutModal"><i class="fas fa-info-circle"></i></button>
+            <button onclick="changeBackground()"><i class="fas fa-palette"></i></button>
+
+            <!-- Links externos -->
+            <button class="program-icon" onclick="window.open('https://www.npmjs.com/~killovsky', '_blank')">
+                <i class="fa-brands fa-npm"></i>
+            </button>
+            <button class="program-icon" onclick="window.open('https://github.com/KillovSky', '_blank')">
+                <i class="fab fa-github"></i>
+            </button>
+            <button class="program-icon" onclick="window.open('https://linktr.ee/KillovSky', '_blank')">
+                <i class="fa-solid fa-link"></i>
+            </button>
+        </div>
+
+        <!-- Controles de áudio e exibição de tempo/data -->
+        <div class="time-audio">
+            <button id="audioButton"><i class="fas fa-volume-up"></i></button>
+            <div>
+                <div class="time" id="currentTime" style="text-align: center;"></div>
+                <div class="date" id="currentDate"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container de login e seleção de perfil -->
+    <div class="login-container">
+        <h1>Selecione um Perfil</h1>
+        <div class="profiles">
+            <!-- Perfil Íris -->
+            <div class="profile" onclick="redirectTo('https://killovsky.github.io/Iris', this)">
+                <img src="https://killovsky.github.io/Iris/lib/Wiki/Homepage/london.jpg" alt="Íris">
+                <p>Íris</p>
+                <div class="loading"></div>
+            </div>
+
+            <!-- Perfil KillovSky -->
+            <div class="profile" onclick="redirectTo('https://github.com/KillovSky', this)">
+                <img src="src/xpcar.jpg" alt="KillovSky">
+                <p>KillovSky</p>
+                <div class="loading"></div>
+            </div>
+        </div>
+
+        <!-- Botão de login -->
+        <button class="login-button zzz" id="loginButton">Entrar</button>
+    </div>
+
+    <!-- Modal de Configurações -->
+    <div class="modal fade" id="configModal" tabindex="-1" aria-labelledby="configModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="configModalLabel">Configurações</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Toggle para Modo Escuro -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="over-text">Modo Escuro 🌙</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="darkModeToggle">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <br>
+                    <!-- Toggle para Easter Egg em Mobile -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="over-text">Forçar Visualização do Easter-Egg 👤</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="easterEggToggle">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Sobre -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalLabel">Sobre</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="over-text">
+                        Bem-vindo à página de seleção do seu destino!<br><br>
+                        Eu sou o Lucas, mas pode me chamar de Kill, Killov, ou KillovSky...você deve ter entendido essa
+                        lógica!<br><br>
+                        Criei esta página com um visual retrô por pura nostalgia e saudades da infância (mas não sou tão
+                        velho assim, juro!). Também adotei um estilo Linux porque, convenhamos, esse sistema é
+                        simplesmente fenomenal e é lindo, especialmente em como ele é construído por comunidades também
+                        open-source ao redor do mundo.<br><br>
+                        Enfim, quer ver mais wallpapers bacanas? É só recarregar a página!<br><br>
+                        As fontes das imagens são:<br>
+                        1. <a href="https://picsum.photos/" style="text-decoration: none;">Picsum</a><br>
+                        2. <a href="https://unsplash.it/" style="text-decoration: none;">Unsplash</a><br>
+                        3. Algumas imagens são minhas, do <a href="https://github.com/KillovSky/Iris"
+                            style="text-decoration: none;">Projeto Íris</a><br><br>
+                        Página desenvolvida com ❤️ por <a href="https://github.com/KillovSky"
+                            style="text-decoration: none;">Lucas R. ~ KillovSky</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts do Bootstrap e personalizados -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/script.js"></script>
 </body>
 
 </html>
